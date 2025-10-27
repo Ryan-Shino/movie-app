@@ -7,8 +7,7 @@ Search, explore, and discover movies using a modern UI with real-time data from 
 
 ## Live Demo
 
-[Movie App on Vercel](https://your-vercel-url.vercel.app)  
-_(will replace with link)_
+[Movie App on Vercel](https://findflix-ryan-shino.vercel.app/)
 
 ---
 
@@ -68,12 +67,16 @@ npm run build
 This project uses the TMDb API key.
 Create a .env file in the root:
 
+```bash
 VITE_API_KEY=your_tmdb_api_key_here
+```
 
 The .env file is gitignored for security.
 Access the key in your code:
 
+```bash
 const API_KEY = import.meta.env.VITE_API_KEY;
+```
 
 ## Project Structure:
 
@@ -100,7 +103,7 @@ Movie App/
 
 Ryan Shino
 GitHub: Ryan-Shino
-LinkedIn: [Your LinkedIn URL] (optional)
+LinkedIn: https://www.linkedin.com/in/ryan-shino/
 
 ## License
 
