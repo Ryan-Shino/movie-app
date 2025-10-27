@@ -1,0 +1,108 @@
+.movie-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 20px;
+    pointer-events: all;
+  }
+  
+  .movie-popup {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    animation: scaleFadeIn 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .movie-info-column {
+    margin-left: 1rem;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+  }
+  
+  .movie-info-column h2 {
+    color: #afa3bb;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info-column p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .movie-info-column .extra-info {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+
+  .movie-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .movie-genres span {
+    background-color: rgba(63, 2, 69, 0.347);
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .close-btn:hover {
+    color: #847199;
+  }
+  
+  @keyframes scaleFadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  @media (max-width: 768px) {
+    .movie-popup {
+      flex-direction: column;
+      height: auto;
+    }
+    .movie-info-column {
+      max-width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
