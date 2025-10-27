@@ -1,16 +1,103 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **sleek and responsive movie browsing application** built with **React + Vite**.  
+Search, explore, and discover movies using a modern UI with real-time data from the TMDb API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+[Movie App on Vercel](https://your-vercel-url.vercel.app)  
+_(will replace with link)_
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse trending and popular movies
+- Search for movies by title
+- View detailed movie information
+- Modular and reusable React components
+- Built with **Vite** for fast performance
+- Clean and responsive design
+
+---
+
+## Tech Stack
+
+| Category             | Technologies                                  |
+| -------------------- | --------------------------------------------- |
+| **Frontend**         | React, Vite                                   |
+| **State Management** | React Context / Hooks                         |
+| **Styling**          | CSS / TailwindCSS _(update if using another)_ |
+| **API**              | TMDb API                                      |
+| **Build Tool**       | Vite                                          |
+| **Version Control**  | Git + GitHub                                  |
+
+---
+
+## Installation & Setup
+
+Clone the repo:
+
+```bash
+git clone https://github.com/Ryan-Shino/movie-app.git
+cd movie-app
+```
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Build for production:
+npm run build
+
+## Environment Variables
+
+This project uses the TMDb API key.
+Create a .env file in the root:
+
+VITE_API_KEY=your_tmdb_api_key_here
+
+The .env file is gitignored for security.
+Access the key in your code:
+
+const API_KEY = import.meta.env.VITE_API_KEY;
+
+## Project Structure:
+
+Movie App/
+├── public/
+├── src/
+│ ├── components/
+│ ├── contexts/
+│ ├── css/
+│ ├── pages/
+│ ├── services/
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+## Author
+
+Ryan Shino
+GitHub: Ryan-Shino
+LinkedIn: [Your LinkedIn URL] (optional)
+
+## License
+
+This project is licensed under the MIT License.
+
+## Deployment & CI/CD
+
+This project is deployed using Vercel with GitHub integration:
+Every push to the main branch triggers an automatic build and deployment
+API keys are securely managed via environment variables
+I wanted to familiarity with industry-standard continuous deployment workflows
