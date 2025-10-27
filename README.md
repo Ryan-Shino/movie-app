@@ -7,7 +7,7 @@ Search, explore, and discover movies using a modern UI with real-time data from 
 
 ## Live Demo
 
-[Movie App on Vercel](https://findflix-ryan-shino.vercel.app/)
+[Link to Movie App on Vercel](https://findflix-ryan-shino.vercel.app/)
 
 ---
 
@@ -102,7 +102,9 @@ Movie App/
 ## Author
 
 Ryan Shino
+
 GitHub: Ryan-Shino
+
 LinkedIn: https://www.linkedin.com/in/ryan-shino/
 
 ## License
@@ -114,4 +116,4 @@ This project is licensed under the MIT License.
 This project is deployed using Vercel with GitHub integration:
 Every push to the main branch triggers an automatic build and deployment
 API keys are securely managed via environment variables
-I wanted to familiarity with industry-standard continuous deployment workflows
+I wanted to show familiarity with industry-standard continuous deployment workflows
