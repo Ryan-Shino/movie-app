@@ -25,14 +25,14 @@ _(will replace with link)_
 
 ## Tech Stack
 
-| Category             | Technologies                                  |
-| -------------------- | --------------------------------------------- |
-| **Frontend**         | React, Vite                                   |
-| **State Management** | React Context / Hooks                         |
-| **Styling**          | CSS / TailwindCSS _(update if using another)_ |
-| **API**              | TMDb API                                      |
-| **Build Tool**       | Vite                                          |
-| **Version Control**  | Git + GitHub                                  |
+| Category             | Technologies          |
+| -------------------- | --------------------- |
+| **Frontend**         | React, Vite           |
+| **State Management** | React Context / Hooks |
+| **Styling**          | CSS                   |
+| **API**              | TMDb API              |
+| **Build Tool**       | Vite                  |
+| **Version Control**  | Git + GitHub          |
 
 ---
 
@@ -46,13 +46,22 @@ cd movie-app
 ```
 
 Install dependencies:
+
+```bash
 npm install
+```
 
 Start the development server:
+
+```bash
 npm run dev
+```
 
 Build for production:
+
+```bash
 npm run build
+```
 
 ## Environment Variables
 
@@ -68,6 +77,7 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 
 ## Project Structure:
 
+```lua
 Movie App/
 ├── public/
 ├── src/
@@ -84,6 +94,7 @@ Movie App/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
+```
 
 ## Author
 
