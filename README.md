@@ -114,6 +114,9 @@ This project is licensed under the MIT License.
 ## Deployment & CI/CD
 
 This project is deployed using Vercel with GitHub integration:
+
 Every push to the main branch triggers an automatic build and deployment
+
 API keys are securely managed via environment variables
+
 I wanted to show familiarity with industry-standard continuous deployment workflows
