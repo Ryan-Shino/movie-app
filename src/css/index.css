@@ -19,6 +19,7 @@
   box-sizing: border-box;
 }
 
+
 html, body {
   overflow-x: hidden;
 }
@@ -28,6 +29,17 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
+}
+
+html, body, #root {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  display: none;
 }
 
 #root {
